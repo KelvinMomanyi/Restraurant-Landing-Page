@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/burger2.png" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>BURGEER</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 data-aos="fade-down">BURGEER</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image">
+        <img 
+          src="assets/burger2.png"
+          alt="sushi"
+          data-aos="fade-up"
+        />
+        <!-- <h2 data-aos="fade-up">
+          日 <br />
+          本 <br />
+          食
+        </h2> -->
+
+        <div class="hero-image__overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Feel the taste of the best burgers</h1>
+          <p>Feel the taste of the most popular burgers from anywhere and anytime.</p>
+
+          <div class="hero-content__buttons">
+            <button class="hero-content__order-button">Order Now</button>
+            <button class="hero-content__play-button">
+              <img src="assets/play-circle.svg" alt="play" />
+              How to Order
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content__testimonial" data-aos="fade-up">
+    
+          <div class="hero-content__review">
+            <img src="assets/t-avt-2.png" alt="user" />
+            <p>"The most delicious burgers that ever existed."</p>
+          </div>
+
+          <div class="hero-content__customer flex-center">
+            <h4>24<span>k+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-sushi3">
+          <img src="assets/chickenburger.png" alt="sushi" data-aos="fade-right"/>
+        </div>
+        <button class="about-us__button">
+          Learn More
+         <img src="assets/arrow-up-right.svg" alt="learn More"/>
+        </button>
+        <div class="about-us__image-sushi2">
+           <img src="assets/hamburger.png" alt="sushi" data-aos="fade-right"/>
+        </div>
+      </div>
+       <div class="about-us__content" data-aos="fade-left">
+        <p class="sushi__subtitle">About Us</p>
+        <h3 class="sushi__title">Our mission is to bring true burger delicacies to you.</h3>
+        <p class="sushi__description">We pride ourselves in preparing the best meat experience through
+          our shopping and dining for our customers.
+        </p>
+       </div>
+    </section>
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title" data-aos="flip-up"> Popular Food</h2>
+      <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade fade-up">
+        <button class="popular-foods__filters-btn active">
+        All
+      </button>
+      <button class="popular-foods__filters-btn">
+        <img src="/assets/burgerIcon.svg" alt="sushi 9"/>
+        Burger
+      </button>
+      <button class="popular-foods__filters-btn">
+        <img src="/assets/hot-dog Icon.svg" alt="sushi 9"/>
+        Hot dog
+      </button>
+      <button class="popular-foods__filters-btn">
+        <img src="/assets/friesIcon.png" alt="sushi 9"/>
+        Fries
+      </button>
+      <button class="popular-foods__filters-btn">
+        <img src="/assets/MilkshakeIcon.svg" alt="sushi 9"/>
+        Milk shake
+      </button>
+      <button class="popular-foods__filters-btn">
+        All
+      </button>
+      </div>
+      
+      
+      <div class="popular-foods__catalogue " data-aos="fade-up">
+        <article class="popular-foods__card ">
+          <img 
+          class="popular-foods__card-image"
+          src="assets/beefburger.png"
+          alt="sushi-12"
+          />
+          <h4 class="popular-foods__card-title">Beef Burger</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img 
+               src="assets/star.svg"
+               alt=""
+              />
+              <p>4.9</p>
+            </div>
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card ">
+          <img 
+          class="popular-foods__card-image "
+          src="assets/hotdog.png"
+          alt="sushi-12"
+          />
+          <h4 class="popular-foods__card-title">Hot Dog</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img 
+               src="assets/star.svg"
+               alt=""
+              />
+              <p>5.0</p>
+            </div>
+            <p class="popular-foods__card-price">$19.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img 
+          class="popular-foods__card-image"
+          src="assets/milkshake-2.png"
+          alt="sushi-12"
+          />
+          <h4 class="popular-foods__card-title">Milk Shake</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img 
+               src="assets/star.svg"
+               alt=""
+              />
+              <p>4.7</p>
+            </div>
+            <p class="popular-foods__card-price">$30.00</p>
+          </div>
+        </article>
+      </div>
+  
+
+      <button class="popular-foods__button">
+        Explore Food
+        <img src="assets/arrow-right.svg"
+        alt="arrow-right"/>
+      </button>
+    </section>
+
+    <section class="trending" id="food">
+      <section class="trending-sushi">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="sushi__subtitle">What’s on the Menu...</p>
+  
+          <h3 class="sushi__title">Burgers
+          </h3>
+          <p class="sushi__description">Feel the taste of the most delicious brgers here.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Brisket Cheese Burger</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Southern Chicken Burger</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Cheese & Bacon Burger</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>BBQ Cheddar Burger</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Veggie Burger</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Grilled Cheese & Fries</p>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="trending__image flex-center">
+          <img src="assets/Burger-and-chips.jpg" alt="sushi-5" data-aos="fade-left" />
+  
+          <div class="trending__arrow trending__arrow-left">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-bottom">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+        </div>
+
+      </section>
+
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Discover</p>
+      </div>
+
+      <section class="trending-drinks">
+        <div class="trending__image flex-center">
+          <img src="assets/milkshake.jpg" alt="sushi-4" data-aos="fade-right" />
+  
+          <div class="trending__arrow trending__arrow-top">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-right">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+        </div>
+
+        <div class="trending__content" data-aos="fade-left">
+          <p class="sushi__subtitle">What’s on the Menu...</p>
+  
+          <h3 class="sushi__title">MilkShake
+          </h3>
+          <p class="sushi__description">Feel the taste of the most delicious MilkShake here.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Strawberry Shake</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Vanilla Shake</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Chocolate Shake</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Thick Shake</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Creamy shake</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Premium Shake</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+
+    
+     <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">
+        Get offers straight <br/> to your inbox
+      </h2>
+       <p data-aos="fade-up">Sign-up for the sushiman newsletter</p>
+       <div class="subscription__form" data-aos="fade-up">
+        <input
+        type="text"
+        placeholder="Enter your email address"
+        />
+        <button >Get Started</button>
+       </div>
+     </section>
+    
+    <footer class="footer flex-between">
+      <h3 class="footer_logo">
+        <span>BUR</span>GEER
+      </h3>
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+      </ul>
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="">
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="">
+        </li>
+        <li class="flex-center">
+          <img src="assets/twitter.svg" alt="">
+        </li>
+      </ul>
+    </footer>
+
+   
+
+   
+
+   
+    <script type="module" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
